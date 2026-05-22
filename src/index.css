@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import "@fontsource/poppins";
+@import "@fontsource/poppins/100.css";
+@import "@fontsource/poppins/200.css";
+@import "@fontsource/poppins/300.css";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+
+body{
+  margin:0;
+  padding:0;
+  background:#120008;
+  overflow-x:hidden;
+  font-family:"Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+*{
+  box-sizing:border-box;
+}
+@keyframes marquee {
+  0%{
+    transform:translateX(100%);
+  }
+
+  100%{
+    transform:translateX(-100%);
+  }
+}
+
+.animate-marquee{
+  display:inline-block;
+  animation: marquee 18s linear infinite;
+}
+
+/* WIDTH */
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+/* TRACK */
+
+::-webkit-scrollbar-track{
+  background:#120008;
+}
+
+/* HANDLE */
+
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(
+    to bottom,
+    #facc15,
+    #d97706
+  );
+
+  border-radius:999px;
+  border:2px solid #120008;
+}
+
+/* HOVER */
+
+::-webkit-scrollbar-thumb:hover{
+  background:linear-gradient(
+    to bottom,
+    #fde047,
+    #f59e0b
+  );
+}
