@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion"
+import logo from "../assets/logo.png"
 
 export default function Loader({ loading }) {
 
@@ -60,7 +61,7 @@ export default function Loader({ loading }) {
                 duration: 1,
               }}
 
-              src="src/assets/logo.png"
+              src={logo}
 
               alt="logo"
 
