@@ -68,7 +68,7 @@ export default function Loader({ loading }) {
               className="h-50 mx-auto object-contain"
             />
 
-            {/* BRAND */}
+            {/* BRAND 
 
             <motion.h1
 
@@ -99,7 +99,7 @@ export default function Loader({ loading }) {
 
               House Of DiPAM
 
-            </motion.h1>
+            </motion.h1> */}
 
             {/* LINE */}
 
